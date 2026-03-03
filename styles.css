@@ -1,0 +1,9 @@
+.project-box {
+    flex: 0 0 16rem;
+    text-align: center;
+    border: 1px solid #d7dbd8;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
