@@ -7,3 +7,20 @@
     background-color: #f9f9f9;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.swiper {
+    width: 100%;
+    overflow-x: scroll !important;
+  }
+
+.swiper-slide {
+    width: 272px !important;
+    height: 375.75px;
+}
+
+.swiper-slide > a {
+    display: block;
+    transform: scale(0.9);
+    width: 272px;
+    height: 375.75px;
+}
