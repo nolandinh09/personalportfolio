@@ -14,13 +14,13 @@
   }
 
 .swiper-slide {
-    width: 272px !important;
-    height: 375.75px;
+    width: 400px !important;
+    height: 400px;
 }
 
 .swiper-slide > a {
     display: block;
     transform: scale(0.9);
-    width: 272px;
+    width: 450px;
     height: 375.75px;
 }
