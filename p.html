@@ -21,9 +21,8 @@
             </div>
             <div class="right">
                 <a href="#about-section">About</a>
-                <!-- <a href="#experience-section">Experience</a> -->
+                <a href="#pcbuilds-section">PC Builds</a>
                 <a href="#projects-section">Projects</a>
-                <a href="#skills-section">Skills</a>
             </div>
         </nav>
     </header>
@@ -31,8 +30,7 @@
         <h2>Hey everyone! I'm Nolan!</h2>
         <div class="headshot">
             <picture>
-                <source srcset="images/webp/headshot.webp" type="image/webp">
-                <img src="images/headshot.png" alt="headshot">
+                <img src="images/babyme.JPG" alt="headshot">
             </picture>
         </div>
         <div class="bio">
@@ -50,7 +48,7 @@
             <a href="https://www.youtube.com/@vickersvaliant1" target="_blank">
                 <i class="fa-brands fa-square-youtube"></i>
             </a>
-            <a href="https://www.linkedin.com/in/stephanieran/" target="_blank">
+            <a href="https://streamable.com" target="_blank">
                 <img src="images/streamable.webp" alt="streamable" width="60">
             </a>
             <a href="https://github.com/nolandinh09" target="_blank">
@@ -59,17 +57,17 @@
         </div>
     </section>
     <div class="divider"></div>
-    <section id="projects-section">
+    <section id="pcbuilds-section">
         <h2>PC Builds</h2>
         <p>I began learning how to build PCs in 2021 by watching youtube videos and then I started to take apart laptops. When I saved up enough money, I bought parts for my first computer, and the rest is history.</p>
-        <!-- Software Projects Subsection -->
-        <div class="project-subsection">
+        <!-- PC Builds -->
+        <div class="pcbuilds-subsection">
             <div #swiperRef="" class="swiper card-swiper">
                 <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <a href="" target="_blank" class="project-box">
                         <picture>
-                            <img src="images/clientbuild.jpeg" alt="Floppy Fish">
+                            <img src="images/clientbuild.jpeg" alt="Client Build">
                         </picture>
                         <h4>Client Build #1</h4>
                         <h5><em>Summer 2025</em></h5>
@@ -109,39 +107,19 @@
                 </div>
             </div>
         </div>
-    
-        <!-- Design Projects Subsection -->
-        <div class="project-subsection">
     </section>    
     <div class="divider"></div>
-    <section id="skills-section">
-        <h2>Skills</h2>
-        <div class="skills-container">
-            <i class="fa-brands fa-python"></i>
-            <i class="fa-brands fa-java"></i>
-            <i class="fa-brands fa-swift"></i>
-            <i class="fa-brands fa-figma"></i>
-            <i class="fa-brands fa-git-alt"></i>
-            <i class="fa-brands fa-github-alt"></i>
-            <i class="fa-solid fa-database"></i>
-            <i class="devicon-r-plain"></i>
-            <i class="devicon-c-plain-wordmark"></i>
-        </div>
-    </section>
-    <div class="divider"></div>
-
-    <!-- Swiper JS -->
-    <footer>
-        <p>&copy; <span id="year"></span> Steph Ran. All Rights Reserved.</p>
-    </footer>
-    
+    <section id="projects-section">
+        <h2>Projects</h2>
+        <p>Here are some of the projects I've worked on, both personal and for school.
+        <p>coming soon!</p>
+        <br>
+        <p>bonus clip</p>
+        <div style="position:relative; width:100%; height:0px; padding-bottom:56.250%"><iframe allow="fullscreen" allowfullscreen height="100%" src="https://streamable.com/e/1veasy" width="100%" style="border:none; width:50%; height:50%; position:absolute; left:0px; top:0px; overflow:hidden;"></iframe></div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-            // Automatically update the copyright year
-            document.getElementById('year').textContent = new Date().getFullYear();
-    
-            // Initialize Swiper
+            // initialize da swiper
             const swiper = new Swiper(".card-swiper", {
                 centeredSlides: false,
                 spaceBetween: 0,

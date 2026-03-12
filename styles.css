@@ -239,7 +239,7 @@ section h2::after {
 }
 
 /* Projects Section */
-#projects-section {
+#pcbuilds-section {
     width: 100%;
     margin: auto;
     min-height: 100vh;
@@ -250,27 +250,27 @@ section h2::after {
     gap: 2rem;
 }
 
-#projects-section h2 {
+#pcbuilds-section h2 {
     margin-bottom: 1rem;
     font-size: 2.75rem;
     font-weight: 700;
 }
 
-#projects-section h3 {
+#pcbuilds-section h3 {
     margin-bottom: 2rem;
     font-size: 1.5rem;
     font-weight: 500;
     text-decoration: underline;
 }
 
-.project-subsection {
+.pcbuilds-subsection {
     width: 100%;
     margin-bottom: 3rem; /* Add space between subsections */
 }
 
 .projects-scroll-container {
     display: flex;
-    gap: 2rem;
+    gap: 10rem;
     padding: 1rem;
     width: 100%;
     max-width: 1600px;
@@ -290,6 +290,11 @@ section h2::after {
     min-height: 50rem; /* Set a minimum height for the box */
     display: flex;
     flex-direction: column;
+}
+
+.project-box:hover {
+    transform: scale(0.95);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
 .project-box img {
@@ -356,7 +361,7 @@ section h2::after {
 }
 
 #skills-section i:hover {
-    transform: scale(1.2);
+    transform: scale(5);
     color: #a5d6b0;
 }
 
@@ -401,6 +406,7 @@ footer {
 .swiper-slide {
     width: 400px !important;
     height: 400px;
+    margin-right: 2rem !important;
 }
 
 .swiper-slide > a {
